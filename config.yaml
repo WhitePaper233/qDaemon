@@ -1,0 +1,19 @@
+cqhttpConfig:
+  IpAddress: "127.0.0.1"
+  Port: 6700
+  Token: ""
+
+qDeamonMode: "Group"
+
+GroupConfig:
+  ReactGroup: 1919810
+
+ParseConfig:
+  Parser: "BuiltIn"
+  CommandIdentifier:
+    - "!!"
+    - "！！"
+
+TimeOut: 6
+
+PluginPath: "./plugins"
